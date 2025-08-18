@@ -295,6 +295,9 @@ void available_buses()
 
 void show_bus_details()
 {
+    printf("---------Here is your Bus Ticket Details----------\n");
+
+
     if (BusNumber == 101)
     {
         printf("Bus Number: 101\nSource: Aligarh\nDestination: Mathura\nTotal Seats: 60\nAvailable Seats: %d\nTotal Fare: %d\n", 60 - bookedSeats + cancelledSeats, bookedSeats * 300);
